@@ -15,12 +15,6 @@ jupyter nbextension enable --sys-prefix hide_code
 jupyter serverextension enable --sys-prefix hide_code
 
 
-#try to install init_cells
-jupyter nbextension install --sys-prefix init_cell
-jupyter nbextension enable --sys-prefix init_cell
-jupyter serverextension enable --sys-prefix init_cell
-
-
 # Try to fix the install based on https://github.com/kirbs-/hide_code/issues/29#issuecomment-274800019
 # Note that I used that even though different because old code listed at that link gave error saying
 # no install attriibute & only thing with install I saw when I ran `!python -c "import hide_code.hide_code as hc;print(dir(hc));"`
