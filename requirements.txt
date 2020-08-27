@@ -5,3 +5,4 @@ hide_code==0.5.2
 ipyevents
 ipywidgets
 plotly.express
+xlrd >= 1.0.0
