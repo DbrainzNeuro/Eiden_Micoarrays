@@ -6,3 +6,4 @@ ipyevents
 ipywidgets
 plotly.express
 xlrd == 1.2.0
+openpyxl
